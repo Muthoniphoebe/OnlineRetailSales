@@ -98,9 +98,7 @@ from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 from sklearn.metrics import silhouette_score
 
-# Assuming the data is already loaded and preprocessed up to this point
 
-# Ensure l_t2 contains only numeric columns
 l_t2 = da_t[['Amount', 'Frequency', 'Recency']].copy()
 
 # Initialize the StandardScaler
